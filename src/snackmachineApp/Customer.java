@@ -1,4 +1,4 @@
-package snackmachineApp
+package snackmachineApp;
 
 public class Customer
 {
@@ -9,7 +9,7 @@ public class Customer
 
 	public Customer(String name, double cash)
 	{
-		maxId++
+		maxId++;
 		this.id = maxId;
 		this.name = name;
 		this.cash = cash;
